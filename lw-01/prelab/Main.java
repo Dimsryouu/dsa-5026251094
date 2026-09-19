@@ -12,7 +12,6 @@ public class Main{
             String id = jobs.next();
             int pages = jobs.nextInt();
 
-            // Mapping berdasarkan tipe ke objek konkret
             if (type.equals("MONO")) {
                 printList.add(new MonoPrint(id, pages));
             } else if (type.equals("COLOUR")) {
