@@ -6,7 +6,6 @@ public class Main{
         Scanner jobs = new Scanner(Main.class.getResourceAsStream("/lw-01/prelab/jobs.txt"));
 
         List<PrintJob> printList = new ArrayList<>();
-
         while (jobs.hasNext()) {
             String type = jobs.next();
             String id = jobs.next();
