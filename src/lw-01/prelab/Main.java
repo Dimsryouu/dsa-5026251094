@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.Scanner;
 public class Main{
     public static void main(String[] args){
-        Scanner jobs = new Scanner(Main.class.getResourceAsStream("/lw-01/prelab/jobs.txt"));
+        Scanner jobs = new Scanner(Main.class.getResourceAsStream("jobs.txt"));
 
         List<PrintJob> printList = new ArrayList<>();
 
