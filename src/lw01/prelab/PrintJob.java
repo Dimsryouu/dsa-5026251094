@@ -3,7 +3,7 @@ public abstract class PrintJob {
     private int pages;
 
     protected PrintJob(String id, int pages){
-        if (pages <= 0) {
+        if (pages <= 0 || pages > 100) {
             throw new IllegalArgumentException("Pages must be greater than zero and at most 100");
         }
         this.id = id;
