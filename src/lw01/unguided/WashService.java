@@ -5,6 +5,9 @@ public abstract class WashService implements Billable{
     private int days;
     
     protected WashService(String id, int days){
+        if(days <= 0){
+            throw new IllegalArgumentException("Days must greater than zero");
+        }
         this.id = id;
         this.days = days;
     }
