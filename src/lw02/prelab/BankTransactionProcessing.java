@@ -5,7 +5,7 @@ import java.util.Scanner;
 import java.util.Stack;
 
 public class BankTransactionProcessing {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
 
         LinkedList<String[]> transaksi = new LinkedList<>();
 
