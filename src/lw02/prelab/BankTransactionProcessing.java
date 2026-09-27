@@ -9,7 +9,7 @@ public class BankTransactionProcessing {
 
         LinkedList<String[]> transaksi = new LinkedList<>();
 
-        Scanner buktitransaksi = new Scanner(BankTransactionProcessing.class.getResourceAsStream("Transaction.txt"));
+        Scanner buktitransaksi = new Scanner(BankTransactionProcessing.class.getResourceAsStream("transactions.txt"));
         while (buktitransaksi.hasNextLine()) {
             String baris = buktitransaksi.nextLine();
             String[] data = baris.split(" ");
