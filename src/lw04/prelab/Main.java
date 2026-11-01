@@ -50,9 +50,9 @@ public class Main {
         System.out.println();
 
         for (int i = 0; i < m; i++) {
-            int idx = linearSearch(branches, targets[i]);
-            if (idx != -1) {
-                System.out.println(targets[i] + ": FOUND at index " + idx);
+            int index = linearSearch(branches, targets[i]);
+            if (index != -1) {
+                System.out.println(targets[i] + ": FOUND at index " + index);
             } else {
                 System.out.println(targets[i] + ": NOT FOUND");
             }
