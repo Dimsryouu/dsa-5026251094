@@ -72,7 +72,7 @@ public class Main {
         }
     }
 
-        public static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(Main.class.getResourceAsStream("parcels.txt"));
         int n = sc.nextInt();
         int[] array = new int[n];
