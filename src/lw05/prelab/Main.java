@@ -138,8 +138,6 @@ public class Main {
         printPath(bfsResult);
 
         System.out.println("=== DFS from " + names[start] + " ===");
-        dfsVisited.clear();
-        dfsOrder.clear();
         dfs(start);
         printPath(dfsOrder);
 
